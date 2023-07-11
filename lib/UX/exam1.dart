@@ -20,10 +20,10 @@ class _TestUserState extends State<TestUser> {
         title: const Text('Category'),
         actions: const [Icon(Icons.shopping_cart)],
       ),
-      body: SafeArea(
+      body: const SafeArea(
         child: Column(
           children: [
-            const TextField(
+            TextField(
               decoration: InputDecoration(
                   icon: Icon(Icons.search), border: OutlineInputBorder()),
             ),
@@ -34,7 +34,7 @@ class _TestUserState extends State<TestUser> {
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
-                      children: const [
+                      children: [
                         Icon(Icons.color_lens),
                         Text(
                           'Vegatable',
@@ -45,7 +45,7 @@ class _TestUserState extends State<TestUser> {
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.end,
-                      children: const [
+                      children: [
                         Icon(Icons.menu),
                         Icon(Icons.apps_sharp)
                       ],
