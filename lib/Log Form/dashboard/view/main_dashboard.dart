@@ -111,7 +111,7 @@ class _MainDashboardState extends State<MainDashboard> {
                           controller.text = tempProduct!.name;
                         });
                       },
-                      backgroundColor: Color(0xFF21B7CA),
+                      backgroundColor: const Color(0xFF21B7CA),
                       foregroundColor: Colors.white,
                       icon: Icons.edit,
                       label: 'Edit',
